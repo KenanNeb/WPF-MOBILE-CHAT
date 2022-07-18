@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_MOBILE_CHAT_WB"
         mc:Ignorable="d"
-        Title="MainWindow" Height="652"   WindowStyle="None" ResizeMode="NoResize"  Width="332" WindowStartupLocation="CenterScreen" Icon="AK.jpg" >
+        Title="MainWindow" Height="652"   WindowStyle="None" ResizeMode="NoResize"  Width="332" WindowStartupLocation="CenterScreen" >
     <Window.Background>
         <ImageBrush ImageSource="/Photos/back.jpg" Stretch="Fill" />
     </Window.Background>
@@ -23,7 +23,7 @@
 
 
         <Image  Source="/Photos/close.png" MouseLeftButtonDown="Image_MouseEnter"   Margin="295,6,8,40" />
-        <Image   Source="/thumbnail.jpg" Margin="6,10,259,10" RenderTransformOrigin="4.776,0.321"  />
+        <Image   Source="/Photos/thumbnail.jpg" Margin="6,10,259,10" RenderTransformOrigin="4.776,0.321"  />
         <Label Content="Ayshvaria Ray &#10;  online" Foreground="Gold"
                HorizontalAlignment="Left" Height="55" FontSize="18" Margin="78,22,0,0" VerticalAlignment="Top" Width="190">
             <Label.Background>
